@@ -1,0 +1,10 @@
+c:\users\xalid shikhverdiyev\source\repos\DesktopApp2\DesktopApp2\bin\Debug\DesktopApp2.exe.config
+c:\users\xalid shikhverdiyev\source\repos\DesktopApp2\DesktopApp2\bin\Debug\DesktopApp2.exe
+c:\users\xalid shikhverdiyev\source\repos\DesktopApp2\DesktopApp2\bin\Debug\DesktopApp2.pdb
+c:\users\xalid shikhverdiyev\source\repos\DesktopApp2\DesktopApp2\obj\Debug\DesktopApp2.csprojAssemblyReference.cache
+c:\users\xalid shikhverdiyev\source\repos\DesktopApp2\DesktopApp2\obj\Debug\DesktopApp2.Form1.resources
+c:\users\xalid shikhverdiyev\source\repos\DesktopApp2\DesktopApp2\obj\Debug\DesktopApp2.Properties.Resources.resources
+c:\users\xalid shikhverdiyev\source\repos\DesktopApp2\DesktopApp2\obj\Debug\DesktopApp2.csproj.GenerateResource.cache
+c:\users\xalid shikhverdiyev\source\repos\DesktopApp2\DesktopApp2\obj\Debug\DesktopApp2.csproj.CoreCompileInputs.cache
+c:\users\xalid shikhverdiyev\source\repos\DesktopApp2\DesktopApp2\obj\Debug\DesktopApp2.exe
+c:\users\xalid shikhverdiyev\source\repos\DesktopApp2\DesktopApp2\obj\Debug\DesktopApp2.pdb
