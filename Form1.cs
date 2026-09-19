@@ -127,7 +127,7 @@ namespace DesktopApp2
             else
             {
                 textBox4.UseSystemPasswordChar = true;
-                textBox5.UseSystemPasswordChar = false;
+                textBox5.UseSystemPasswordChar = true;
             }
         }
 
