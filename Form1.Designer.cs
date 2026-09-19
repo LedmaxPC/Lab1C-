@@ -66,7 +66,6 @@ namespace DesktopApp2
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Sign In";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter_1);
             // 
             // groupBox2
             // 
@@ -88,7 +87,6 @@ namespace DesktopApp2
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Sign Up";
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // textBox1
             // 
@@ -96,7 +94,6 @@ namespace DesktopApp2
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(121, 21);
             this.textBox1.TabIndex = 0;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -105,7 +102,6 @@ namespace DesktopApp2
             this.textBox2.Size = new System.Drawing.Size(121, 21);
             this.textBox2.TabIndex = 1;
             this.textBox2.UseSystemPasswordChar = true;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 
@@ -113,7 +109,6 @@ namespace DesktopApp2
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(116, 21);
             this.textBox3.TabIndex = 2;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // textBox4
             // 
@@ -122,7 +117,6 @@ namespace DesktopApp2
             this.textBox4.Size = new System.Drawing.Size(116, 21);
             this.textBox4.TabIndex = 3;
             this.textBox4.UseSystemPasswordChar = true;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // textBox5
             // 
@@ -131,7 +125,6 @@ namespace DesktopApp2
             this.textBox5.Size = new System.Drawing.Size(116, 21);
             this.textBox5.TabIndex = 4;
             this.textBox5.UseSystemPasswordChar = true;
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // checkBox1
             // 
@@ -163,7 +156,6 @@ namespace DesktopApp2
             this.label1.Size = new System.Drawing.Size(52, 13);
             this.label1.TabIndex = 4;
             this.label1.Text = "Username";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -182,7 +174,6 @@ namespace DesktopApp2
             this.label3.Size = new System.Drawing.Size(52, 13);
             this.label3.TabIndex = 6;
             this.label3.Text = "Username";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 

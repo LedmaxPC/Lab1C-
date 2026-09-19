@@ -7,7 +7,7 @@ namespace DesktopApp2
     public partial class Form1 : Form
     {
         Dictionary<string, string> users = new Dictionary<string, string>();
-
+        
         public Form1()
         {
             InitializeComponent();
@@ -18,8 +18,7 @@ namespace DesktopApp2
                 string username = textBox3.Text.Trim();
                 string password = textBox4.Text;
                 string confirmPassword = textBox5.Text;
-
-                // Username boşdursa
+            
                 if (username == "")
                 {
                     MessageBox.Show("Username boş ola bilməz!");
@@ -27,7 +26,6 @@ namespace DesktopApp2
                     return;
                 }
 
-                // Password boşdursa
                 if (password == "")
                 {
                     MessageBox.Show("Password boş ola bilməz!");
@@ -35,7 +33,6 @@ namespace DesktopApp2
                     return;
                 }
 
-                // Confirm Password boşdursa
                 if (confirmPassword == "")
                 {
                     MessageBox.Show("Confirm Password boş ola bilməz!");
@@ -43,48 +40,26 @@ namespace DesktopApp2
                     return;
                 }
 
-                // PASSWORD VƏ CONFIRM PASSWORD EYNİ DEYİLSƏ
                 if (password != confirmPassword)
                 {
-                    MessageBox.Show(
-                        "Password və Confirm Password eyni olmalıdır!",
-                        "Xəta",
-                        MessageBoxButtons.OK,
-                        MessageBoxIcon.Error
-                    );
-
+                    MessageBox.Show("Password və Confirm Password eyni olmalıdır!", "Xəta", MessageBoxButtons.OK, MessageBoxIcon.Error);    
                     textBox5.Focus();
                     return;
                 }
 
-                // Username artıq varsa
                 if (users.ContainsKey(username))
                 {
-                    MessageBox.Show(
-                        "Bu username artıq qeydiyyatdan keçib!",
-                        "Xəta",
-                        MessageBoxButtons.OK,
-                        MessageBoxIcon.Error
-                    );
-
+                    MessageBox.Show( "Bu username artıq qeydiyyatdan keçib!", "Xəta", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     textBox3.Focus();
                     return;
                 }
 
-                // Bütün yoxlamalar keçdisə qeydiyyat edilir
                 users.Add(username, password);
 
-                MessageBox.Show(
-                    "Qeydiyyat uğurla tamamlandı!",
-                    "Uğurlu",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Information
-                );
-
+                MessageBox.Show("Qeydiyyat uğurla tamamlandı!", "Uğurlu", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 textBox3.Clear();
                 textBox4.Clear();
                 textBox5.Clear();
-
                 textBox3.Focus();
             
         }
@@ -171,50 +146,7 @@ namespace DesktopApp2
             );
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-        }
 
-        private void groupBox1_Enter_1(object sender, EventArgs e)
-        {
-        }
-
-        private void groupBox2_Enter(object sender, EventArgs e)
-        {
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void textBox5_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
 
